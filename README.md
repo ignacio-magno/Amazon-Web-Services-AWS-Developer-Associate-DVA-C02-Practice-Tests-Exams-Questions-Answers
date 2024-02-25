@@ -614,6 +614,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] Rolling with additional batch.
 - [ ] Immutable.
 
+      The key here is "environment to an option that maintains full capacity during deployment while using the existing instances.", then is rolling with addiotional batch, because this option mantain the "existing instances", and create new if is neccesary, otherwise, robling "minimizes reduced availability", but the question say  " maintains full capacity during deployment ", rolling with batch then garantize this " Avoids any reduced availability,"
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A Developer is creating an application that needs to locate the public IPv4 address of the Amazon EC2 instance on which it runs . How can the application locate this information?
